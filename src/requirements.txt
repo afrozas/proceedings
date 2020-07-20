@@ -1,0 +1,9 @@
+docx>=0.2.4
+enum34>=1.1.6
+html5lib>=0.999999999
+flask>=0.12.1
+lxml>=3.7.3
+nltk>=3.2.4
+scikit-learn>=0.19.0
+textract>=1.6.1
+webencodings>=0.5
