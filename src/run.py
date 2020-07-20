@@ -4,10 +4,8 @@ from helpers.format_converter import FormatConverter
 from helpers.pre_processor import Preprocessor
 
 
-def pre_process_and_query():
+def extract():
 	"""
-	Indexes the corpus using tf-idf vectorization
-	Query pre-processed and documents returned on the basis of similarity
 	"""
 
 	# Get the list of all files to be indexed
@@ -20,7 +18,6 @@ def pre_process_and_query():
 
 	extractedText = []
 
-	# TF-IDF of each file and vectorization in file list to be indexed
 	for file in files:
 		print(fileNum, file)
 		pdfText = Preprocessor(file)
@@ -34,4 +31,4 @@ def pre_process_and_query():
 
 
 if __name__ == '__main__':
-	pre_process_and_query()
+	extract()
