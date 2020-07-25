@@ -8,7 +8,7 @@ def extract():
 	"""
 
 	# Get the list of all files to be indexed
-	fm = FileManager("/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/raw/www.aclweb.org")
+	fm = FileManager("/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/raw/papers.nips.cc")
 	# fm = FileManager("/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test")
 	files, fileNum = fm.get_files_to_be_indexed(), 0
 	print("Getting files to be indexed...")
@@ -25,7 +25,6 @@ def extract():
 			with open(filepath, 'w', encoding='utf-8') as f:
 				json.dump(processedText.__dict__, f, ensure_ascii=False, indent=4)
 		except:
-			print(f'Skipping file: {file}')
 			fails.append(file)
 
 	succeed = [f for f in files if f not in (fails + text_skips)]
