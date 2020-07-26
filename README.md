@@ -1,10 +1,12 @@
 # Proceedings
 
-Metadata, text and semantic extraction of conference proceedings to build knowledge graph and semantic search engines.
+Metadata, text and semantic extraction of conference proceedings to build knowledge base and semantic search.
 
 ## Dataset
 
 The dataset covers major conferences in machine learning, natural language and speech processing.
+
+> Download the dataset [here](https://drive.google.com/drive/folders/1vO1HH8KaaaYgd2dysTLMdviYsbtl7iM0?usp=sharing). 
 
 ### Data
 
@@ -120,17 +122,17 @@ python3 extract.py --directory <path/to/directory>
 
 Contributions for adding processed proceedings are welcome and would help grow the dataset quickly.
 
-- If you are interested in adding a new proceeding, please follow the steps in [`Local Development`](README.md#Local_Development) and send a Pull Request!
+- If you are interested in adding a new proceeding, please follow the steps in [`Local Development`](README.md#local-development) and send a Pull Request!
 
-- If you want a new proceeding to be added, please open a new issue using the template here!
+- If you want a new proceeding to be added, please open a new issue using the template [here](https://github.com/enigmaeth/proceedings/issues/new?assignees=&labels=proceedings_request&template=add-a-new-proceeding.md&title=Add+new+proceedings%3A+%3CProceeding+name%3E)!
 
 ### Adding a new semantic extraction component
 
 All the semantic extraction components live inside [`src/repository/semantic_extract.py`](src/repository/semantic_extract.py) file.
 
-- If you are interested in adding a new semantic extraction component, please follow the steps in [`Local Development`](README.md#Local_Development) to run a local instance. Verify if your component works by running it on the [`test`](test/) directory and send a Pull Request!
+- If you are interested in adding a new semantic extraction component, please follow the steps in [`Local Development`](README.md##local-development) to run a local instance. Verify if your component works by running it on the [`test`](test/) directory and send a Pull Request!
 
-- If you want a new component to be added, please open a new issue using the template here!
+- If you want a new component to be added, please open a new issue using the template [here](https://github.com/enigmaeth/proceedings/issues/new?assignees=&labels=component&template=add-a-new-semantic-extraction-component.md&title=Add+Semantic+Extraction+Component%3A+%3CName%3E)!
 
 ## LICENSE
 
