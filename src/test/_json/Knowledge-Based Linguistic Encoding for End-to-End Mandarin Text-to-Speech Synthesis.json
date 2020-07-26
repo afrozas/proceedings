@@ -1,6 +1,5 @@
 {
-    "filename": "Knowledge-Based Linguistic Encoding for End-to-End Mandarin Text-to-Speech Synthesis.json",
-    "text": "",
+    "filename": "Knowledge-Based Linguistic Encoding for End-to-End Mandarin Text-to-Speech Synthesis",
     "numPages": 5,
     "metadata": "",
     "title": "Knowledge-Based Linguistic Encoding for End-to-End Mandarin Text-to-Speech Synthesis",
@@ -50262,12 +50261,12 @@
         "S. O. Arik",
         "Deep Voice",
         "W. Ping",
-        "http://arxiv.org/abs/1806.04558",
+        "A. Kannan",
         "S. Narang",
-        "J. Raiman",
+        "http://arxiv.org/abs/1806.04558",
         "J. Miller",
+        "J. Raiman",
         "A. Gibiansky",
-        "K. Peng",
-        "A. Kannan"
+        "K. Peng"
     ]
 }

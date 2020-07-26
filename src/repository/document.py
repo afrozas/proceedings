@@ -15,14 +15,13 @@ class Document:
         initialize several variables to use them throughout the program and for object instances
         """
         self.filename = filename
-        self.text = ""
         self.numPages = 0
         self.metadata = ""
         self.title = ""
         self.extract_from_pdf()
         self.semantic_extract()
         # Use document title as filename in final json
-        self.filename = self.title + '.json'
+        self.filename = self.title
 
     def semantic_extract(self):
         semantic_extract = SemanticExtract()

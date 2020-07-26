@@ -1,12 +1,13 @@
 # Proceedings
 
-Metadata, text and semantic extraction of conference proceedings to build knowledge base and semantic search.
+Semantic text and metadata extraction of conference proceedings for building knowledge bases and semantic search.
 
 ## Dataset
 
 The dataset covers major conferences in machine learning, natural language and speech processing.
+The [`dataset`](/dataset) directory contains the directory structure for a preview. A sample processed json object is available [here](https://www.npoint.io/docs/cff3fbe85245376095a7).
 
-> Download the dataset [here](https://drive.google.com/drive/folders/1vO1HH8KaaaYgd2dysTLMdviYsbtl7iM0?usp=sharing). 
+> Download the dataset [here](https://drive.google.com/drive/folders/1vO1HH8KaaaYgd2dysTLMdviYsbtl7iM0?usp=sharing).
 
 ### Data
 
@@ -34,25 +35,17 @@ following conference proceedings.
   - [`parser`](https://spacy.io/usage/linguistic-features#dependency-parse): Dependency Parsing between text spans of document.
   - [`noun_chunks`](https://spacy.io/usage/linguistic-features#noun-chunks): Base noun phrases that have a noun as their head.
 - Metadata fields extracted using PyPDF2
-  - `filename`,
-  - `text`,
-  - `numPages`,
-  - `metadata`,
-  - `title`,
-  - `author`,
-  - `subject`,
-  - `creator`,
-  - `producer`,
-  - `keywords`,
-  - `creationdate`,
-  - `moddate`,
-  - `trapped`,
-  - `ptexfullbanner`,
-  - `raw_text`
+   |                  |            |            |
+   | ---------------- | ---------- | ---------- |
+   | `filename`       | `metadata` | `numPages` |
+   | `title`          | `author`   | `subject`  |
+   | `creator`        | `producer` | `keywords` |
+   | `creationdate`   | `moddate`  | `trapped`  |
+   | `ptexfullbanner` | `raw_text` | -          |
 
 ## Local Development
 
-An instance of the extraction pipeline can be run locally to produce processed json in the same format as the dataset.
+An instance of the extraction pipeline can be run locally to produce processed json in the same format as from the dataset.
 
 ### Installation
 
@@ -110,7 +103,7 @@ The entry point for the pipeline is [`src/extract.py`](src/extract.py). It defin
   --max_size MAX_SIZE   Max size of a single file to process. Default: 5MB
 ```
 
-To process a documents directory with `extract.py`, run the following command:
+To process a documents directory with `extract.py`, run the following command. The path to directory should be an absolute path.
 
 ```bash
 python3 extract.py --directory <path/to/directory>
@@ -118,11 +111,11 @@ python3 extract.py --directory <path/to/directory>
 
 ## Contributing
 
-### Add a new proceeding
+### Adding a new proceeding
 
 Contributions for adding processed proceedings are welcome and would help grow the dataset quickly.
 
-- If you are interested in adding a new proceeding, please follow the steps in [`Local Development`](README.md#local-development) and send a Pull Request!
+- If you are interested in adding a new proceeding, please follow the steps in [`Local Development`](README.md#local-development) and send a Pull Request with the processed json (in `.zip`/`.tar.gz`) that would be added in the next release!
 
 - If you want a new proceeding to be added, please open a new issue using the template [here](https://github.com/enigmaeth/proceedings/issues/new?assignees=&labels=proceedings_request&template=add-a-new-proceeding.md&title=Add+new+proceedings%3A+%3CProceeding+name%3E)!
 

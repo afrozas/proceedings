@@ -1,5 +1,5 @@
-n=16;
-max=19;
+n=15;
+max=17;
 while [ "$n" -le "$max" ]; do
   mkdir "acl_$n"
   cd "acl_$n"

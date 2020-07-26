@@ -45,6 +45,7 @@ class FileManager:
 			if '.git' in dirnames:
 				# don't go into any .git directories.
 				dirnames.remove('.git')
+		print(files_list)
 		return files_list
 
 	def get_files_to_be_indexed(self):
@@ -57,6 +58,6 @@ class FileManager:
 		files_list = []
 		for name in files:
 			# process only accepted formats and files that are smaller than self.size bytes
-			if name.split('.')[-1] in self.accepted_formats and os.stat(os.path.join(self.root, name)).st_size < self.size:
+			if name.split('.')[-1] in self.accepted_formats and os.stat(name).st_size < self.size:
 				files_list.append(os.path.join(self.root, name))
 		return files_list
