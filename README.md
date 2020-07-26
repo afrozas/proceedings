@@ -1,13 +1,14 @@
 # Proceedings
 
-Semantic text and metadata extraction of conference proceedings for building knowledge bases and semantic search.
+Semantic text and metadata extraction from conference proceedings for constructing knowledge bases and semantic search.
 
 ## Dataset
 
 The dataset covers major conferences in machine learning, natural language and speech processing.
 The [`dataset`](/dataset) directory contains the directory structure for a preview. A sample processed json object is available [here](https://www.npoint.io/docs/cff3fbe85245376095a7).
 
-> Download the dataset [here](https://drive.google.com/drive/folders/1vO1HH8KaaaYgd2dysTLMdviYsbtl7iM0?usp=sharing).
+> Download the dataset [here](https://drive.google.com/file/d/1kbHIOuqN_5WPcyChC8QwA_N8Ij0mtGqg/view?usp=sharing).
+> Download size: 508MB, Extracted size: 6GB
 
 ### Data
 
@@ -23,7 +24,7 @@ following conference proceedings.
 |  2016   |   -   | 2016  |      -      |
 |  2015   |   -   | 2015  |      -      |
 
-> Note: Few files from certain proceedings are dropped from the dataset due to parsing errors.
+> Note: Few files from certain proceedings are dropped from the dataset due to parsing errors. More proceedings volumes to be added soon.
 
 ### Features
 

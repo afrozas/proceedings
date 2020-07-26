@@ -45,7 +45,6 @@ class FileManager:
 			if '.git' in dirnames:
 				# don't go into any .git directories.
 				dirnames.remove('.git')
-		print(files_list)
 		return files_list
 
 	def get_files_to_be_indexed(self):
