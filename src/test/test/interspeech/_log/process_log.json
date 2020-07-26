@@ -1,0 +1,14 @@
+{
+    "sucess": [
+        "/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test/interspeech/1101.pdf",
+        "/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test/interspeech/1102.pdf",
+        "/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test/interspeech/1103.pdf",
+        "/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test/interspeech/1111.pdf",
+        "/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test/interspeech/1118.pdf"
+    ],
+    "text_skip": [
+        "/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test/interspeech/1117.pdf",
+        "/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test/interspeech/8297-vilbert-pretraining-task-agnostic-visiolinguistic-representations-for-vision-and-language-tasks/8297-vilbert-pretraining-task-agnostic-visiolinguistic-representations-for-vision-and-language-tasks.pdf"
+    ],
+    "fail": []
+}

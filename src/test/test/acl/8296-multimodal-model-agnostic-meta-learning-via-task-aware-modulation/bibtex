@@ -1,0 +1,10 @@
+@incollection{NIPS2019_8296,
+title = {Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation},
+author = {Vuorio, Risto and Sun, Shao-Hua and Hu, Hexiang and Lim, Joseph J},
+booktitle = {Advances in Neural Information Processing Systems 32},
+editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+pages = {1--12},
+year = {2019},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/8296-multimodal-model-agnostic-meta-learning-via-task-aware-modulation.pdf}
+}

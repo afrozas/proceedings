@@ -1,0 +1,14 @@
+{
+    "sucess": [
+        "/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test/acl/1101.pdf",
+        "/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test/acl/1102.pdf",
+        "/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test/acl/1103.pdf",
+        "/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test/acl/1111.pdf",
+        "/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test/acl/1118.pdf",
+        "/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test/acl/8296-multimodal-model-agnostic-meta-learning-via-task-aware-modulation/8296-multimodal-model-agnostic-meta-learning-via-task-aware-modulation.pdf"
+    ],
+    "text_skip": [
+        "/media/enigmaeth/My Passport/eniext/code/experimental/proceedings/data/test/acl/1117.pdf"
+    ],
+    "fail": []
+}

@@ -1,0 +1,28 @@
+{
+    "stats": {
+        "success": 11,
+        "text_skip": 3,
+        "failure": 0
+    },
+    "files": {
+        "sucess": [
+            "../test/../test/test/acl/1101.pdf",
+            "../test/../test/test/acl/1102.pdf",
+            "../test/../test/test/acl/1103.pdf",
+            "../test/../test/test/acl/1111.pdf",
+            "../test/../test/test/acl/1118.pdf",
+            "../test/../test/test/acl/8296-multimodal-model-agnostic-meta-learning-via-task-aware-modulation/8296-multimodal-model-agnostic-meta-learning-via-task-aware-modulation.pdf",
+            "../test/../test/test/interspeech/1101.pdf",
+            "../test/../test/test/interspeech/1102.pdf",
+            "../test/../test/test/interspeech/1103.pdf",
+            "../test/../test/test/interspeech/1111.pdf",
+            "../test/../test/test/interspeech/1118.pdf"
+        ],
+        "text_skip": [
+            "../test/../test/test/acl/1117.pdf",
+            "../test/../test/test/interspeech/1117.pdf",
+            "../test/../test/test/interspeech/8297-vilbert-pretraining-task-agnostic-visiolinguistic-representations-for-vision-and-language-tasks/8297-vilbert-pretraining-task-agnostic-visiolinguistic-representations-for-vision-and-language-tasks.pdf"
+        ],
+        "failure": []
+    }
+}
